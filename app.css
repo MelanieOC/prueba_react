@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Poppins');
+body{
+  font-family: 'Poppins', sans-serif;
+}
+header{
+  color: white;
+  height: 100px;
+  background-color: #1C64A0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+#tabs{
+  padding: 50px;
+}
+.panel.with-nav-tabs {
+  margin-top: 50px;
+}
+.panel.with-nav-tabs .panel-heading{
+  padding: 5px 5px 0 5px;
+}
+.panel.with-nav-tabs .nav-tabs{
+  border-bottom: none;
+}
+.panel.with-nav-tabs .nav-justified{
+  margin-bottom: -1px;
+}
+.with-nav-tabs.panel-primary .nav-tabs > li > a,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:focus {
+    color: #fff;
+}
+.with-nav-tabs.panel-primary .nav-tabs > .open > a,
+.with-nav-tabs.panel-primary .nav-tabs > .open > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > .open > a:focus,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:focus {
+	color: #fff;
+	background-color: #3071a9;
+	border-color: transparent;
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a,
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a:focus {
+	color: #428bca;
+	background-color: #fff;
+	border-color: #428bca;
+	border-bottom-color: transparent;
+}
+.lista{
+  font-size: 120%;
+  font-family: 'Oxygen', sans-serif;
+}
+.input-close .row div{
+	padding: 0;
+}
+
+.input-close input{
+	width: 90%;
+	border:none;
+	outline: none;
+}
+.input-close{
+	border: 1px solid silver;
+	border-radius: 5px;
+	padding: 10px;
+	margin:10px 0;
+}
+.alert.alert-danger{
+  display: none;
+}
+.tab-pane{
+  padding: 50px;
+}
+.fila{
+  display: flex;
+  flex-wrap: wrap;
+}
+.celda {
+  width: 45px;
+  border: none;
+  border-radius: 10px;
+  height: 45px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 2px;
+  outline: none;
+}
+.desocupado{
+  background-color: #D9DCDF;
+}
+.ocupado{
+  background-color: orange !important;
+}
+
+
+#asientos>div{
+  border-style: groove;
+  width: 250px;
+  padding: 20px 2px;
+  margin-left: 8px;
+}
+
+@media screen and (max-width: 920px) {
+  #tabs{
+    padding: 20px;
+  }
+  .tab-pane{
+    padding: 20px;
+  }
+}

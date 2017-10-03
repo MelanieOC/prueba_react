@@ -95,8 +95,9 @@ header{
 .ocupado{
   background-color: orange !important;
 }
-
-
+#asientos::before{
+  content: url(img/adelante.jpg);
+}
 #asientos>div{
   border-style: groove;
   width: 250px;
